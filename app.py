@@ -29,16 +29,11 @@ st.set_page_config(
 # Hide Streamlit's default menu and footer for a cleaner look
 st.markdown("""
 <style>
-    /* Hide the hamburger menu in top-right corner */
+    /* Hide the Streamlit main menu and footer */
     #MainMenu {visibility: hidden;}
-
-    /* Hide the "Made with Streamlit" footer */
     footer {visibility: hidden;}
 
-    /* Hide the header bar */
-    header {visibility: hidden;}
-
-    /* Add padding to chat messages so they're not hidden by input bar */
+    /* Add some padding to the bottom */
     .stChatMessage {
         padding-bottom: 1.5rem;
     }
