@@ -1,0 +1,10 @@
+# 1. Secrets (NEVER upload these)
+.env
+
+# 2. Heavy Data (Too big for code storage)
+faiss_index/
+
+# 3. System Files (Junk)
+__pycache__/
+.venv/
+*.pdf
